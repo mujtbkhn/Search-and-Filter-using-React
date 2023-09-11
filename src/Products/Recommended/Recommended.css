@@ -1,0 +1,37 @@
+.recommended-flex {
+    display: flex;
+    margin-left: 20rem;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .recommended-title {
+    margin-left: 20rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+  }
+  .btns {
+    padding: 10px 20px;
+    margin-right: 6px;
+    background: transparent;
+    border: none;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    color: #323232;
+    cursor: pointer;
+  }
+  .recommended{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text content */
+    padding: 20px;
+  }
+  @media screen and (max-width: 767px) {
+    .recommended-flex {
+      flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+      justify-content: flex-start; /* Start buttons on the next line */
+    }
+  }

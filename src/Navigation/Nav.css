@@ -1,0 +1,110 @@
+nav {
+  display: flex;
+  border-bottom: 2px solid #f3f3f3;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  z-index: 999;
+  margin-left: 2rem;
+}
+
+input {
+  padding: 12px 20px;
+  border: none;
+  background-color: #f7f6f6;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 14rem;
+}
+.nav-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+  color: #474545;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  margin-left: 50px;
+}
+.centered-content {
+  flex-grow: 1; /* Allow the content to take up remaining space */
+  text-align: center; /* Center the content horizontally */
+  font-size: 1.75rem;
+  background-image: linear-gradient(to right, blue, crimson);
+  -webkit-background-clip: text; /* For browser compatibility */
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+
+/* Responsive styles for tablets */
+@media screen and (max-width: 768px) {
+  nav {
+    justify-content: space-between; /* Adjust alignment for smaller screens */
+  }
+
+  .search-input {
+    max-width: 15rem; 
+    min-width: 10rem/* Adjust the input width for tablets */
+  }
+  .nav-icons {
+    width: 0.725rem;
+    height: 0.725rem;
+    margin-left: 1rem;
+    color: #474545;
+  }
+  .centered-content{
+    flex-grow: 1; /* Allow the content to take up remaining space */
+    text-align: center;
+    font-size: 15px;
+  }
+  .flex-container {
+    margin-left: 2.5rem;
+  }
+}
+/* Responsive styles for mobile */
+@media screen and (max-width: 480px) {
+  nav {
+    flex-direction: column; /* Stack elements vertically for mobile */
+    text-align: center; /* Center text for mobile */
+  }
+
+  .search-input {
+    width: 100%; /* Make the input full width on mobile */
+    margin-left: 0; /* Remove margin for mobile */
+    margin-top: 10px; /* Add some top margin for spacing */
+  }
+
+  
+  .search-input {
+    max-width: 10rem; 
+    min-width: 8rem/* Adjust the input width for tablets */
+  }
+  .nav-icons {
+    width: 0.725rem;
+    height: 0.725rem;
+    margin-left: 1.725rem;
+    color: #474545;
+  }
+  .centered-content{
+    flex-grow: 1; /* Allow the content to take up remaining space */
+    text-align: center;
+    font-size: 15px;
+  }
+  .flex-container {
+    margin-left: 10rem;
+  }
+}
