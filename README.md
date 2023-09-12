@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Advanced Searching and Filtering using ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GeekyNess Design Challenge](https://github.com/mujtbkhn/Search-and-Filter-using-React/assets/86319200/a691d22d-5fcf-42b1-a9c2-a72346af9db5)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Introduction](#introduction)
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Welcome to the **Advanced Searching and Filtering using ReactJS** project! This project showcases a dynamic product page for an imaginary e-commerce shoe website. It utilizes ReactJS to create a powerful and user-friendly interface for searching, filtering, and displaying products. Whether you're building an online store or just want to learn about advanced filtering techniques, this project is a great resource.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Search Functionality**: A search input at the top allows users to search for products based on keywords. The search is performed dynamically without the need for a full page reload.
 
-### `npm run build`
+- **Filtering Options**: The left sidebar provides various filtering options, including categories, colors, and prices. Users can filter products based on their preferences, making it easy to find the perfect pair of shoes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Recommended Products**: A "Recommended Products" section is displayed below the search input, suggesting products based on the user's search query and selected filters.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Product Cards**: Each product card on the page includes essential details such as product titles, ratings, previous prices (`prevPrice`), and new prices (`newPrice`). Users can quickly compare products and make informed decisions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Demo
 
-### `npm run eject`
+For a live demo of this project, visit [here](https://search-and-filter-using-react.vercel.app/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run this project locally, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone this repository to your local machine:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   git clone https://github.com/mujtbkhn/Search-and-Filter-using-React
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- ReactJS
+- HTML5
+- CSS3
+- JavaScript
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
+Thank you/
