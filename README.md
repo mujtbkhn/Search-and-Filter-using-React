@@ -2,7 +2,6 @@
 
 ![GeekyNess Design Challenge](https://github.com/mujtbkhn/Search-and-Filter-using-React/assets/86319200/a691d22d-5fcf-42b1-a9c2-a72346af9db5)
 
-
 ## Table of Contents
 
 - [Introduction](#introduction)
